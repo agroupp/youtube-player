@@ -1,0 +1,14 @@
+.yp-list-row{
+    overflow-y: auto;
+    flex: 1 1 auto;
+    margin-top: 2rem;
+    border: 1px solid rgba(0,0,0,0.125);
+    border-radius: 4px;
+    max-height: 300px;
+}
+
+@media (max-width: 992px){
+    .yp-list-row{
+        height: 20rem;
+    }
+}

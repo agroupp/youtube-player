@@ -1,0 +1,1 @@
+export { YPMainComponent } from './components/YPMain';

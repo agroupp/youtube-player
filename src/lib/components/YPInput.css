@@ -1,0 +1,6 @@
+.yp-form-group{
+    flex: 1 1 auto!important;
+}
+.yp-invalid-feedback-row{
+    min-height: 1.5rem;
+}
