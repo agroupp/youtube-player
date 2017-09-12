@@ -16,3 +16,9 @@ directory in 'src' which exports one main component "YPMainComponent" that can b
 imported in any application. Must be used with only one property "apiKey" which is 
 Youtube API key.
 
+## Testing
+
+```
+    $ npm test
+```
+

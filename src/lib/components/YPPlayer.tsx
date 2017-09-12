@@ -37,7 +37,9 @@ export class YPPlayerComponent extends React.Component<Props, State> {
             const apiScript: HTMLScriptElement = document.createElement('script');
             apiScript.src = `https://www.youtube.com/iframe_api`;
             apiScript.onload = () => {
+                // eslint-disable-next-line
                 window['onYouTubeIframeAPIReady'] = () => {
+                    // eslint-disable-next-line
                     const YT = window['YT'];
                     const onPlayerReady = () => resolve(player);
                     const player = new YT.Player('player', {
