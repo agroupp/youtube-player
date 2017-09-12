@@ -7,7 +7,7 @@ import './App.css';
 class App extends React.Component {
   render() {
     return (
-      <div className="App">
+      <div className="App mt-5">
         <YPMainComponent apiKey={YOUTUBE_API_KEY} />
       </div>
     );

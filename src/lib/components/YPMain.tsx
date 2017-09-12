@@ -65,7 +65,7 @@ export class YPMainComponent extends React.Component<Props, State> {
     
     render() {
         return (
-            <div className="container mt-5">
+            <div className="container">
                 <div className="row">
                     <div className="col-12 col-lg-4">
                         <YPPlaylistComponent

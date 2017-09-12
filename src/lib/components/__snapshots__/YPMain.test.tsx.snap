@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<YPMainComponent /> should render and create JSON tree 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-12 col-lg-4"
+    >
+      <div
+        className="yp-playlist-wrapper card h-100"
+      >
+        <div
+          className="card-body h-100 d-flex flex-column"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="yp-input-wrapper col-12"
+            >
+              <form
+                className="form-inline"
+                onSubmit={[Function]}
+              >
+                <div
+                  className="form-group col-9 w-100 px-0 pr-1 m-0"
+                >
+                  <input
+                    className="form-control w-100"
+                    onChange={[Function]}
+                    placeholder="Enter Video URL or Video ID"
+                    style={
+                      Object {
+                        "borderColor": "rgba(0,0,0,0.125)",
+                      }
+                    }
+                    type="text"
+                    value=""
+                  />
+                </div>
+                <button
+                  className="btn btn-primary col-3"
+                  disabled={true}
+                  type="submit"
+                >
+                  Add
+                </button>
+              </form>
+              <div
+                className="row yp-invalid-feedback-row"
+              >
+                <div
+                  className="invalid-feedback col-12"
+                  style={
+                    Object {
+                      "display": "none",
+                    }
+                  }
+                >
+                  Wrong Video Id or URL
+                </div>
+                <div
+                  className="col-12 text-success"
+                  style={
+                    Object {
+                      "display": "none",
+                    }
+                  }
+                >
+                  <span>
+                    Processing...
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="yp-list-row"
+          >
+            <div
+              className="yp-list-wrapper"
+            >
+              <ul
+                className="list-group"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-12 col-lg-7"
+    >
+      <div
+        className="card"
+      >
+        <div
+          className="card-body h-100 d-flex flex-column"
+        >
+          <div
+            className="embed-responsive embed-responsive-16by9"
+            id="player"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

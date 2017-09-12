@@ -18,6 +18,10 @@ Youtube API key.
 
 ## Testing
 
+Not really big coverage. The tests checks that everything rendering with no crashes,
+match snapshot and the service gets data as expected.
+ 
+
 ```
     $ npm test
 ```
